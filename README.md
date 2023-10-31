@@ -74,4 +74,5 @@ or
 ## Author
 
 [ndbac (Nguyễn Đình Bắc)](https://github.com/ndbac)
-[koalalikecode (Nguyễn Duy)][https://github.com/koalalikecode]
+
+[koalalikecode (Nguyễn Duy)](https://github.com/koalalikecode)
