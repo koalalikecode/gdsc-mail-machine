@@ -1,1 +1,5 @@
-module.exports = { content: `` };
+module.exports = {
+  renderContent(rec) {
+    return ``;
+  },
+};

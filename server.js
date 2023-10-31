@@ -4,7 +4,7 @@ const csvToJson = require("csvToJson");
 const minimist = require("minimist");
 const path = require("path");
 const _ = require("lodash");
-const { content } = require("./content");
+const { renderContent } = require("./content");
 
 const sendMail = async ({
   recipientMail,
@@ -66,7 +66,7 @@ const run = async () => {
       return sendMail({
         recipientMail: rec.email,
         recipientName: rec.name,
-        content: altContent || content,
+        content: altContent || renderContent(rec),
         isHtmlMail: args.isHtmlMail,
         transporter,
       });
