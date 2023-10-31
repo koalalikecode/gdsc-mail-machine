@@ -42,7 +42,7 @@ const mailOptions = {
 
 #### Mail content
 
-> Insert your mail content in the content.js file. You can use either HTML or plain text email. Moreover, you can use altContent in server.js ` const altContent = ``; `, remember to convert [HTML to escaped text](https://onlinetexttools.com/escape-text)
+> Insert your mail content in the content.js file. You can use either HTML or plain text email. Moreover, you can use altContent in server.js ` const altContent = ``; `
 
 #### Recipient list
 
