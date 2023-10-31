@@ -1,0 +1,20 @@
+{
+  "name": "multiple-custom-mailer",
+  "version": "1.0.0",
+  "description": "Tool to send multiple custom email",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "html": "node server.js --csvFile=input.csv --isHtmlMail=true",
+    "text": "node server.js --csvFile=input.csv --isHtmlMail=false"
+  },
+  "author": "bacrr",
+  "license": "ISC",
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "dotenv": "^16.0.3",
+    "lodash": "^4.17.21",
+    "minimist": "^1.2.7",
+    "nodemailer": "^6.9.1"
+  }
+}
